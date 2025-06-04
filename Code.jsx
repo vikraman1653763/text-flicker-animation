@@ -31,3 +31,13 @@ const BlinkingText = ({ text, className }) => {
 };
 
 export default BlinkingText;
+
+
+
+// import 
+import BlinkingText from './BlinkingText'; // Adjust path 
+
+<BlinkingText 
+  text="“IT’S WHAT WE DO THAT DEFINES US”" 
+  className="class-name" 
+/>
